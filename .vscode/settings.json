@@ -1,0 +1,12 @@
+{
+  "files.exclude": {
+    "**/build": true,
+    "**/*.o": true,
+    "**/*.d": true
+  },
+  "search.exclude": {
+    "**/build": true,
+    "**/abstract-machine": true
+  },
+  "terminal.integrated.defaultProfile.linux": "bash"
+}

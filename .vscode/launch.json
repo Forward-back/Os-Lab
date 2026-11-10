@@ -1,0 +1,62 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "xv6 (attach :26000)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/mit-xv6-riscv/kernel/kernel",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb-multiarch",
+      "miDebuggerServerAddress": "localhost:26000",
+      "cwd": "${workspaceFolder}/mit-xv6-riscv",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "RISC-V target",
+          "text": "set architecture riscv:rv64"
+        }
+      ]
+    },
+    {
+      "name": "AM L0 (attach :1234)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/Nju-os/kernel/build/kernel-x86_64-qemu.elf",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "miDebuggerServerAddress": "localhost:1234",
+      "cwd": "${workspaceFolder}/Nju-os/kernel",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "d:/os_lab/mit-xv6-riscv/user",
+      "program": "d:/os_lab/mit-xv6-riscv/user/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

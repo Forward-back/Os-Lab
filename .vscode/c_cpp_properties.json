@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "name": "Linux (WSL)",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/Nju-os/abstract-machine/am/include",
+        "${workspaceFolder}/Nju-os/abstract-machine/klib/include",
+        "${workspaceFolder}/mit-xv6-riscv/kernel",
+        "${workspaceFolder}/mit-xv6-riscv/user"
+      ],
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "gnu++17",
+      "intelliSenseMode": "linux-gcc-x64"
+    }
+  ],
+  "version": 4
+}
