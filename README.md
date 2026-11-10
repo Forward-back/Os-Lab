@@ -16,6 +16,7 @@ os_lab/
 ├─ docs/
 │  ├─ gdb-debugging.md     # GDB 调试规范与要点
 │  ├─ wsl-env.md           # WSL 环境搭建与开发形态
+│  ├─ git-workflow.md      # git 提交流程与规范
 │  └─ notes-template.md    # lab 笔记模板
 ├─ scripts/setup-wsl.sh    # WSL 工具链一键安装
 ├─ Nju-os/                 # 南大实验：README.md + notes/

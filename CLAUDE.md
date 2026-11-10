@@ -26,6 +26,7 @@ cd mit-xv6-riscv && make qemu-gdb             # gdb 端口 26000
 ## 约定
 
 - 进度与「完成」定义见根 README：测试通过 + 笔记写完 + git 提交。
+- 提交规范与推送流程见 `docs/git-workflow.md`（类型前缀、按文件暂存、不 force push main）。
 - 每个 lab 的笔记放 `项目/notes/<lab>.md`，模板 `docs/notes-template.md`。
 - 不改 `abstract-machine/` 与 xv6 核心，除非实验本身要求；改动写进笔记。
 - 状态标记（README 表格）：未开始 / 进行中 / 已完成。
