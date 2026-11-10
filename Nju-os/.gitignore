@@ -1,0 +1,13 @@
+build/
+*.o
+*.d
+*.sym
+*.elf
+__pycache__/
+.shadow/
+/pstree/pstree-64
+/pstree/pstree-32
+/libco/libco-64.so
+/libco/libco-32.so
+/libco/tests/libco-test-64
+/libco/tests/libco-test-32
