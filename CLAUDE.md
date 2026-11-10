@@ -5,7 +5,7 @@
 `d:\os_lab` 是个人 OS 实验工作区，根目录单 git 仓库，含两个互补课程实验：
 
 - `Nju-os/` — 南大 2024 OS 实验个人学习版。可用 lab：`kernel/`(L0 绘图)、`pstree/`(M1)、`libco/`(M2)。框架为 `abstract-machine/`（不要改）。`oslabs.mk` 的 git 目标已置空（非南大学生，不用 OJ）。
-- `mit-xv6-riscv/` — MIT 6.1810 xv6 骨架，按官方顺序做 lab。上游 README 存为 `README.upstream`。
+- `mit-xv6-riscv/` — MIT 6.1810 xv6 骨架，按官方顺序做 lab。个人指引在 `README.md`，上游原文在 `README`（`fs.img` 目标依赖，勿改名）。
 
 ## 环境
 

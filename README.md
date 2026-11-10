@@ -19,7 +19,7 @@ os_lab/
 │  └─ notes-template.md    # lab 笔记模板
 ├─ scripts/setup-wsl.sh    # WSL 工具链一键安装
 ├─ Nju-os/                 # 南大实验：README.md + notes/
-└─ mit-xv6-riscv/          # MIT 实验：README.md（上游原文 README.upstream）
+└─ mit-xv6-riscv/          # MIT 实验：README.md（个人指引）+ README（上游原文，Makefile 依赖）
 ```
 
 ## 进度总览

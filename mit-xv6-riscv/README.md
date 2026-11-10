@@ -1,6 +1,6 @@
 # mit-xv6-riscv — MIT 6.1810 xv6 实验
 
-xv6 是 MIT 6.1810 的教学用操作系统（RISC-V 版）。上游原文保存在 `README.upstream`。
+xv6 是 MIT 6.1810 的教学用操作系统（RISC-V 版）。上游原文保存在同目录的 `README`（Makefile 的 `fs.img` 目标依赖该文件名，**不要改名或删除**）。
 
 - 课程主页：https://pdos.csail.mit.edu/6.1810/
 - 实验说明（按学期日程逐 lab 发布）：https://pdos.csail.mit.edu/6.1810/2024/schedule.html

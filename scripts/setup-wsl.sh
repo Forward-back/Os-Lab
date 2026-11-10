@@ -4,11 +4,12 @@
 set -euo pipefail
 
 sudo apt-get update
-sudo apt-get install -y \
-  build-essential gcc-multilib gdb gdb-multiarch \
-  gcc-riscv64-linux-gnu \
-  qemu-system-x86 qemu-system-misc \
-  python3 git curl
+# 分步安装：gcc-multilib 与 gcc-riscv64-linux-gnu 同一事务会依赖冲突，
+# 分三次安装可正常解析。
+sudo apt-get install -y build-essential gdb gdb-multiarch \
+  qemu-system-x86 qemu-system-misc python3 git curl
+sudo apt-get install -y gcc-multilib
+sudo apt-get install -y gcc-riscv64-linux-gnu
 
 echo "--- 验证 ---"
 for t in gcc make qemu-system-x86_64 qemu-system-riscv64 \
